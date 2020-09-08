@@ -18,7 +18,7 @@ Go to http://www.doepfer.de/a100_man/a100m_e.htm, in order to get the correct di
 
 in terms of thickness doepfer recommends to go with about 2 mm, but just make sure that the machine you use to cut your material can handle the small thickness you settle on, or have available.
 
-![12HP svgfile](/Users/Pacour/Developer/DIY_Eurorack/media/12HP svgfile.png)
+![12HP svgfile](./media/12HP svgfile.png)
 
 ## Sources
 
