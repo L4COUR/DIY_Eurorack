@@ -20,6 +20,22 @@ in terms of thickness doepfer recommends to go with about 2 mm, but just make su
 
 ![12HP svgfile](./media/12HPsvgfile.png)
 
+when you have either downloaded my .svg file for the 12 HP eurorack panel or made your own .svg file for your dimension eurorack panel, you cut it on your machine of choice. I personally used a CNC Carvey to cut out mine. I couldent figure out how to use it to make the correct dimensions for the screw holes, so I used a drill after the cut and drilled in the 4 holes with an Ø3 drill bit, which matches the Ø3 scrues that are used to mount it to the eurorack case.
+
+Now that the panel is all done it was time to mount the breadboard, and draw power from the eurorack case itself. 
+
+![Eurorackpanel+breadboard+wires]()
+
+connecting the breadboard to the eurorack's power supply is really quite simple. It is important to note that a standard eurorack power supply has +12 volt, -12 volt and Ground (GND). Depending on what types of circuits you are going to make you need to take the polarity of either +12 or -12 volts into account. As a beginner i wouldnt worry to much about using the -12 volts for now. I connected the +12 volts and GND to the respective bus power lines on my breadboard.
+
+When you want to power a manifactured eurorack module you would usually use a 16 pin connector cable
+
+![](https://i.pinimg.com/originals/d9/8f/04/d98f045c359c3c6368417680067f035d.png)
+
+However since we don't yet have a fully manifactured module but are still in the prototyping face we can use some standard jumber cables that you probably have around somewhere if you bought an Arduino starter kit. and connect just two cables to +12v and GND and then connect them to your breadboard mounted on the eurorack-panel.
+
+Now that you have made a eurorack prototyping panel your are ready to have fun making your first circuits!
+
 ## Sources
 
 - http://www.doepfer.de/DIY/a100_diy.htm
