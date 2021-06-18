@@ -4,6 +4,10 @@
 
 In this repository I have tried to document my approach to DIY eurorack. I want this repository to reflect my creative process and learning of electronic audio circuits and be available as a resource for other people that like myself has no electronical engineering background buts still like to tinker around with electronics and modular synth equipment.
 
+[Getting started]()
+[Making a eurorack prototyping panel]()
+
+
 ## Getting started
 
 Before getting started with making DIY eurorack modules I would recommend that you make or buy a eurorack case and power supply, and maybe a mixer and VCO module so you already how a way of producing sound in the eurorack format.
