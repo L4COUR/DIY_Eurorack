@@ -72,6 +72,12 @@ Through a kombination of the trail and error proces and [Look Mum No Computers v
 
 ![1storderfilterinEurorack](./media/1storderfilterinEurorack.png)
 
+For at teste filtret kiggede jeg på spectrum og dB gennem Ableton. På spektrogammet var det svært at se en signifikant eliminering af frekvenser, derimod var det tydeligt at filtret havde en forskel på 12 dB når det var aktivt eller ikke aktivt.
+
+![rcfirstorderfilter2](./media/rcfirstorderfilter2.png)
+
+![rcfirstorderfilter1](./media/rcfirstorderfilter1.png)
+
 ### Future developement
 
 - I want to advance my filter from a first order to a second order filter in order to eliminate unwanted frequencies.
