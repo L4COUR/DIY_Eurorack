@@ -31,6 +31,8 @@ in terms of thickness doepfer recommends to go with about 2 mm, but just make su
 
 when you have either downloaded my .svg file for the 12 HP eurorack panel or made your own .svg file for your dimension eurorack panel, you cut it on your machine of choice. I personally used a CNC Carvey to cut out mine. I couldent figure out how to use it to make the correct dimensions for the screw holes, so I used a drill after the cut and drilled in the 4 holes with an Ø3 drill bit, which matches the Ø3 scrues that are used to mount it to the eurorack case.
 
+## Drawing power from Eurorack Case
+
 Now that the panel is all done it was time to mount the breadboard, and draw power from the eurorack case itself. 
 
 ![Eurorackpanel+breadboard+wires]()
