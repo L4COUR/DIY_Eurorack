@@ -8,6 +8,7 @@ In this repository I have tried to document my approach to DIY eurorack. I want 
 
 [Making a eurorack prototyping panel](https://github.com/L4COUR/DIY_Eurorack/blob/master/Readme.md#making-a-eurorack-prototyping-panel-optional)
 
+[Drawing power from Eurorack Case](https://github.com/L4COUR/DIY_Eurorack/blob/master/Readme.md#drawing-power-from-eurorack-case)
 
 
 
