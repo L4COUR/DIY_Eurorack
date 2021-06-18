@@ -48,6 +48,37 @@ However since we don't yet have a fully manifactured module but are still in the
 
 Now that you have made a eurorack prototyping panel your are ready to have fun making your first circuits!
 
+## Making a First Order LP-Filter
+
+In this projekt I wanted to make a first order filter for my eurorack. In order to accomplish this I first need to get an understanding of filtering in generel, so building a first order filter will hopefully provide me with this understanding.
+
+![](https://lh3.googleusercontent.com/proxy/7268fcXHVTnnlJsxPKis8Yzz3I71BrM4TppCYEGPTyCwOJl25qO3Fc8rh4FKasCa_Z9jyGrzqgAO35pgh5jvv2qOq-Pnn8zBROfzjj9Em-78i0zDR78fGl4yBql99JCNhKgFpjU)
+
+A first order filter Schematic is really rather simpel. It mainly consist of two components a resistor and a capacitor. Making a first order filter really gives you a good understanding of how capacitors work.
+
+Since my goal is to make a filter for my eurorack I want to be able to control the cutoff frequency with a potentiometer. this can easily be achieved by switching the resistor in the schematic for a potentiometer.
+
+### Challenges
+
+1) limitation of available components like capacitors and better potentiometers. Because I dont have a stereo 100K Ohm potentiometer I can't make an easy 2nd order RC filter.
+
+2) fungering out the eksakt pinout for the potentiometer and the two stereo 3.5mm jacks and how they should be place in relation to the capacitor in a breadboard configuration.
+
+Despite the limitations of available components I managed through trail and error to find a capacitor and potentiometer where I would here a signifikant change in the timbre of the square wave oscillator I put through it.
+
+Through a kombination of the trail and error proces and [Look Mum No Computers video on simple RC-Filters](https://www.youtube.com/watch?v=Ch9w5JtbZSc) I managed to figure out the correct ways to connect the various components on the breadboard.
+
+![](./media/Schematic_firstorderRCfilterCutoffControl.png)
+
+![1storderfilterinEurorack](./media/1storderfilterinEurorack.png)
+
+### Future developement
+
+- I want to advance my filter from a first order to a second order filter in order to eliminate unwanted frequencies.
+- implement cutoff and resonance knobs and CV control.
+
 ## Sources
 
 - http://www.doepfer.de/DIY/a100_diy.htm
+- https://www.youtube.com/watch?v=3tMGNI--ofU&list=PLHeL0JWdJLvT1PAqW4TtvxtRoXyk741WM
+- https://www.youtube.com/watch?v=Ch9w5JtbZSc
