@@ -4,8 +4,11 @@
 
 In this repository I have tried to document my approach to DIY eurorack. I want this repository to reflect my creative process and learning of electronic audio circuits and be available as a resource for other people that like myself has no electronical engineering background buts still like to tinker around with electronics and modular synth equipment.
 
-[Getting started]()
-[Making a eurorack prototyping panel]()
+[Getting started](https://github.com/L4COUR/DIY_Eurorack/blob/master/Readme.md#getting-started)
+
+[Making a eurorack prototyping panel](https://github.com/L4COUR/DIY_Eurorack/blob/master/Readme.md#making-a-eurorack-prototyping-panel-optional)
+
+
 
 
 ## Getting started
