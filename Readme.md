@@ -36,15 +36,19 @@ when you have either downloaded my .svg file for the 12 HP eurorack panel or mad
 
 Now that the panel is all done it was time to mount the breadboard, and draw power from the eurorack case itself. 
 
-![Eurorackpanel+breadboard+wires]()
+![eurorackDIYPower](./media/eurorackDIYPower.jpeg)
 
-connecting the breadboard to the eurorack's power supply is really quite simple. It is important to note that a standard eurorack power supply has +12 volt, -12 volt and Ground (GND). Depending on what types of circuits you are going to make you need to take the polarity of either +12 or -12 volts into account. As a beginner i wouldnt worry to much about using the -12 volts for now. I connected the +12 volts and GND to the respective bus power lines on my breadboard.
+connecting the breadboard to the eurorack's power supply is really quite simple. It is important to note that a standard eurorack power supply has +12 volt, -12 volt and Ground (GND). Depending on what types of circuits you are going to make you need to take the polarity of either +12 or -12 volts into account. You can just use jumper wires to connect directly to the euroracks power GPIO pins, but if you want a little more relaible control and have a strip board, some wires and is not affraid of soldering you can solder something like on the picture that makes it easier to provide the breadboard with the voltages needed. on mine I have the black wires for GND, RED&White for +12v & -12v and the blue wire for +5v. this makes it a lot easier to prototype on the breadboard.
 
 When you want to power a manifactured eurorack module you would usually use a 16 pin connector cable
 
 ![](https://i.pinimg.com/originals/d9/8f/04/d98f045c359c3c6368417680067f035d.png)
 
 However since we don't yet have a fully manifactured module but are still in the prototyping face we can use some standard jumber cables that you probably have around somewhere if you bought an Arduino starter kit. and connect just two cables to +12v and GND and then connect them to your breadboard mounted on the eurorack-panel.
+
+If you dont want to constantly have to plug the module into your rack when you are still developing it then you might want to look into having an amp or amp breakout board for an old crappy loudspeaker that you can use for monitorering sound from your DIY module. I can recommend buying something like the [SparkFun Mono Audio Amp Breakout - TPA2005D1](https://www.sparkfun.com/products/11044)
+
+![](https://cdn.sparkfun.com//assets/parts/6/4/0/0/11044-01a.jpg)
 
 Now that you have made a eurorack prototyping panel your are ready to have fun making your first circuits!
 
